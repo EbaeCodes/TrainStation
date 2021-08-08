@@ -63,7 +63,7 @@ public class PilotCoach {
 		Color glassBlue = new Color(141, 178, 251);
 		int xpos1 = position.x + (int) (width * posXScaleLeft);
 		int xpos2 = xpos1 + (int) (width * posXScaleRight);
-		
+
 		window.fillColor(glassBlue);
 		wheel.draw();
 		door.fillColor(grey);

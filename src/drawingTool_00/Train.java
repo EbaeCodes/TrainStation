@@ -3,7 +3,6 @@
  * @author Akachukwu Emmanuel Anokwuru
  */
 
-
 package drawingTool_00;
 
 import java.awt.Color;
@@ -47,7 +46,7 @@ public class Train implements LocatedRectangle {
 	}
 
 	@Override
-	public int width() {	
+	public int width() {
 		return width;
 	}
 

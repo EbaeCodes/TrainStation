@@ -1,8 +1,9 @@
 package drawingTool_00;
 
 /**
- * @author Eberechukwu Faustina Nwaobiora
- * @author Akachukwu Emmanuel Anokwuru
+ * @authors: 
+ * Eberechukwu Faustina Nwaobiora
+ * Akachukwu Emmanuel Anokwuru
  */
 
 import java.awt.Graphics;

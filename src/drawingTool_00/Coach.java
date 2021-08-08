@@ -47,11 +47,11 @@ public class Coach {
 
 	public void draw(Color color) {
 		Color grey = new Color(158, 157, 157);
-		Color glassBlue= new Color(141, 178, 251);
-		
+		Color glassBlue = new Color(141, 178, 251);
+
 		Drawing.pen().setColor(color);
 		Drawing.pen().fillRect(left, bottom, width, height);
-		
+
 		window.draw(glassBlue);
 		frontWheel.draw();
 		backWheel.draw();

@@ -10,7 +10,7 @@ public class Facade extends RectangularObject {
 	public Facade(Point point, int width, int height) {
 		super(point, width, height);
 		gate = new Gate(new Point(point.x + ((width / 2) - 10), point.y + 10), width / 6, height - 10);
-		window = new WindowSet(new Point(point.x + 50, point.y + 35), width +40, height / 3);
+		window = new WindowSet(new Point(point.x + 50, point.y + 35), width + 40, height / 3);
 	}
 
 	public void draw() {

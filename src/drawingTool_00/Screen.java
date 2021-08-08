@@ -5,12 +5,12 @@ import java.awt.Point;
 
 public class Screen extends RectangularObject {
 
-  public Screen(Point position, int width, int height) {
-    super(position, width, height);
-  }
+	public Screen(Point position, int width, int height) {
+		super(position, width, height);
+	}
 
-  public void draw(Color color) {
-    Drawing.pen().setColor(color);
-    super.draw();
-  }
+	public void draw(Color color) {
+		Drawing.pen().setColor(color);
+		super.draw();
+	}
 }

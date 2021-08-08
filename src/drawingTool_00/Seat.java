@@ -5,11 +5,11 @@ import java.awt.Point;
 
 public class Seat extends RectangularObject {
 
-  public Seat(Point position, int width, int height) {
-    super(position, width, height);
-  }
-   
-  public void draw(Color color) {
-    super.fillColor(color);
-  }
+	public Seat(Point position, int width, int height) {
+		super(position, width, height);
+	}
+
+	public void draw(Color color) {
+		super.fillColor(color);
+	}
 }
